@@ -33,4 +33,5 @@ UDeadlineJobPreset::UDeadlineJobPreset()
 	JobPresetStruct.PluginInfo.Add("Executable", ExecutablePath);
 	JobPresetStruct.PluginInfo.Add("ProjectFile", ProjectPath);
 	JobPresetStruct.PluginInfo.Add("CommandLineArguments","-log");
+	JobPresetStruct.PluginInfo.Add("CommandLineMode", "true");
 }
