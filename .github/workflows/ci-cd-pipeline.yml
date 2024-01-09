@@ -16,6 +16,6 @@ jobs:
   release:
     name: Create (pre)release
     needs: is-prerelease
-    uses: Falcons-Creative-Group/ci-cd-workflows/.github/workflows/release-to-github.yml@main
+    uses: Falcons-Creative-Group/ci-cd-workflows/.github/workflows/release-to-github.yml@PIP-311-Accept-any-format-of-base-version
     with:
         is-prerelease: ${{ fromJSON(needs.is-prerelease.outputs.is-prerelease) }}
